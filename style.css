@@ -5,6 +5,9 @@ body{
     margin-left: 20px;
     margin-right: 20px;
 }
+.CuerpoForm{
+    background-color:  #BCBFFF;
+}
 
 .menu-principal {
     text-align: center;
@@ -114,34 +117,77 @@ h2{
     text-align: left;
     margin-top: 100px;
 }
+.losSauces{
+    margin-top: 20px;
+    float:right;
+    width:10%;
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 90px;
+}
+
+.CEU{
+    margin-top: 20px;
+    float:left;
+    width:15%;
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 90px;
+}
+
+.UAX{
+    margin-top: 5px;
+    float:left;
+    width:10%;
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 90px;
+}
 .Institucion{
     font-size: 24px;
+}
+
+.contacta{
+    font-size: 30px;
+    text-align: center;
 }
 
 .ContenedorFormulario{
     text-align: center;
     color:#525252;
     display:list-item;
+    font-size: 26px;
+    flex-direction: column;
+}
+#title h3{
+    padding: 20x;
+    margin-right: 150px;
+    font-weight: bold;
+    letter-spacing: 4px;
+
 }
 input {
     background-color: transparent;
     border: 1px solid #525252;
-    margin: 10px;
-    padding: 15px;
+    margin: 20px;
+    padding: 30px;
+    width: 400px;
 }
 select{
     background-color: transparent;
     border: 1px solid #525252;
-    margin: 10px;
-    padding: 15px;
+    margin: 20px;
+    padding: 30px;
+    width: 470px;
 }
 textarea {
     background-color: transparent;
     border: 1px solid #525252;
     margin: 10px;
     padding: 15px;
+    width:420px;
 }
-input[type="text"]:hover,
+input:hover,
 textarea:hover {
     box-shadow: inset 0px 0px 0px 3px #525252;
 }
@@ -149,4 +195,16 @@ textarea:hover {
 input[type="button"] {
     color: #E8E6E8;
     background-color: #525252;
+}
+button:hover{
+    box-shadow: inset 0px 0px 0px 3px #525252;
+}
+
+.FotoForm{
+    margin-right: 400px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
