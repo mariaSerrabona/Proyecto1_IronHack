@@ -1,56 +1,64 @@
 body{
     background-color: #F4ECEC;
+    font-family: Arial;
+    font-size: 20px;
 }
 
 .menu-principal {
     text-align: center;
     background-color: #525252;
-    color:white;
-    font-size: 20px;
-    font-family: monospace;
+    border: 1px solid #525252;
 
 }
 .menu-principal ul {
-	list-style: none;
-	width: 98%;
-    background-color: #525252;
-    text-align: center;
+    list-style: none;
+    width: 98%;
 }
 .menu-principal li {
-	float:right;
-	position: relative;
-	width:auto;
-    background-color: #525252;
-
+    width:auto;
+    display: inline;
+    margin-left: auto;
 }
 
-.menu-principal a {
-    background-color: #525252;
-    color:white;
-	font-family: monospace;
-	padding: 10px 25px;
-	text-align: center;
-	text-decoration: none;
+.menu-principal a{
+    text-decoration: none;
+    color:#F4ECEC;
+    margin-left: 10px;
+}
+a:hover{
+    background-color: #B1B2B2;
 }
 
-.menu-principal  li:hover a {
-	background: #000000;
-}
 
-.Descripcion{
-    margin-top: 70px;;
+.TextoFoto{
+    margin-top: 70px;
     float:right;
     width:70%;
     font-size: 20px;
+    text-align: justify;
 }
 img{
-    margin-top: 50px;
     float: right;
     border-radius: 50%;
     height: auto;
+    margin-top: 50px;
     max-width: 25%;
     width:30%;
 }
+.ContenedorEnlaces{
+    text-align: center;
+    color:black;
+}
+.ContenedorEnlaces a{
+    text-decoration: none;
+    color:black
 
+}
+.Enlaces{
+    display: inline-block;
+    text-align: left;
+}
 
-
+.About h2{
+    font-size: 25px;
+}
