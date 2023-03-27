@@ -38,6 +38,10 @@ a:hover{
 
 
 
+
+
+/*PÁGINA PRINCIPAL */
+
 /* Foto fijada en la parte inferior derecha */
 #FotoFixed{
     border-radius: 50%;
@@ -52,13 +56,11 @@ a:hover{
     margin-top: 100px;
 }
 .TextoFoto{
-    margin-top: 70px;
+    margin-top: 0%;
     float:right;
     width:70%;
-    font-size: 25px;
+    font-size: 14px;
     text-align: justify;
-    margin-left: 15px;
-    margin-right: 10px;
 }
 .ContenedorEstudios{
     margin-left: 20px;
@@ -87,12 +89,6 @@ a:hover{
     display: inline-block;
     text-align: left;
 }
-
-
-
-
-
-
 
 /*Quien soy, título, texto y foto */
 
@@ -146,7 +142,7 @@ a:hover{
     text-align: justify;
     float: right;
     width:100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin:auto;
     margin-left: 30px;
 }
@@ -166,6 +162,9 @@ a:hover{
 
 
 
+
+
+/* PÁGINA DE ESTUDIOS */
 
 
 
@@ -203,6 +202,17 @@ a:hover{
 .Institucion{
     font-size: 24px;
 }
+
+
+
+
+
+
+
+/*PÁGINA FORMULARIO */
+
+
+
 
 .contacta{
     font-size: 30px;
@@ -264,6 +274,12 @@ textarea:hover {
     width: 120%;
 }
 
+h4{
+    font-size: 30px;
+    font-family: Rockwell;
+
+}
+
 
 #footer{
     text-align: center;
@@ -288,11 +304,6 @@ textarea:hover {
         top: 0;
         width: 100%;
     }
-    .menu-principal img {
-        float: left;
-        border-radius: 50%;
-        width:12%;
-    }
 
     .menu-principal a {
         width: auto;
@@ -302,20 +313,7 @@ textarea:hover {
         margin-left: 5px;
     }
 
-    .TextoFoto{
-        margin-top: 0%;
-        float:right;
-        width:60%;
-        font-size: 14px;
-        text-align: justify;
-    }
 
-
-
-    h2{
-        font-size: 16px;
-        margin-top: 40px;
-    }
 
     .Institucion{
         font-size: 18px;
@@ -323,7 +321,6 @@ textarea:hover {
 
     .losSauces{
         margin-right: 10px;
-
     }
 
 
