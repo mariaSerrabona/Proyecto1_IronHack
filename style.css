@@ -1,43 +1,36 @@
 body{
     background-color: #E4E0E4;
     font-family: "Lato", sans-serif;
-    font-size: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 16px;
 }
 .CuerpoForm{
     background-color:  #BCBFFF;
 }
 
+/*Estructura de la cabecera como menu */
 .menu-principal {
     text-align: center;
     background-color: #525252;
     border: 30px solid #525252;
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
-
-
-.menu-principal ul {
-    list-style: none;
-    width: 98%;
-}
-.menu-principal li {
-    width:auto;
+/*Estilos del menu*/
+.menu-principal li{
+    margin:auto;
+    text-align: center;
+    padding:10px;
+    left:0;
+    right:3px;
     display: inline;
-    margin-left: auto;
 }
-.menu-principal img {
-    float: left;
-    border-radius: 50%;
-    width:15%;
-    margin: auto;
-}
-
 .menu-principal a{
     text-decoration: none;
     color:#F4ECEC;
     margin-left: 30px;
-    font-size: 25px;
+    font-size: 20px;
 }
 a:hover{
     background-color: #B1B2B2;
@@ -45,23 +38,43 @@ a:hover{
 
 
 
+/* Foto fijada en la parte inferior derecha */
+#FotoFixed{
+    border-radius: 50%;
+    width:15%;
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+}
+
+/*Primera Descripcion general */
+.ContenedorInicio{
+    margin-top: 100px;
+}
 .TextoFoto{
     margin-top: 70px;
     float:right;
     width:70%;
     font-size: 25px;
     text-align: justify;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.ContenedorEstudios{
     margin-left: 20px;
 }
 
+/*FotoPrincipal Redonda */
 #MiFoto{
     float: right;
     border-radius: 50%;
     height: auto;
-    margin-top: 50px;
-    max-width: 25%;
-    width:30%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    max-width: 30%;
+    width:40%;
 }
+/*Estilos de los enlaces */
 .ContenedorEnlaces{
     text-align: center;
     color:black;
@@ -69,79 +82,123 @@ a:hover{
 .ContenedorEnlaces a{
     text-decoration: none;
     color:black
-
 }
 .Enlaces{
     display: inline-block;
     text-align: left;
 }
 
-h2{
-    margin-top: 30px;
-    font-size: 30px;
+
+
+
+
+
+
+/*Quien soy, título, texto y foto */
+
+#Conociendome h2{
+    top:30px;
+    font-size: 20px;
+    position:static;
 }
 
-.Presentacion{
+#Conociendome p{
+    font-size: 16px;
     text-align: justify;
-    float: left;
+}
+
+
+.About{
+    text-align: justify;
+    float: right;
     width:100%;
     margin-bottom: 20px;
+    margin: auto;
 }
+
 #Mates{
     float: right;
     height: auto;
-    max-width: 30%;
-    margin-left: 40px;
-    margin-bottom: 10px;;
-
+    max-width: 35%;
+    margin-left: 10px;
+    margin-right: 20px;
 }
 
-.Aficiones{
+/*Por qué ingeniería, título, texto y foto */
+.Ingenieria{
     text-align: justify;
     float: left;
     width:100%;
     margin-bottom: 20px;
 }
+
+#ingenieria{
+    float: left;
+    height: auto;
+    max-width: 30%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+/*Aficiones, título, texto y foto */
+#Aficiones{
+    text-align: justify;
+    float: right;
+    width:100%;
+    margin-bottom: 20px;
+    margin:auto;
+    margin-left: 30px;
+}
+
 
 #Deporte{
     float: right;
     height: auto;
     max-width: 30%;
-    margin-left: 40px;
-    margin-bottom: 10px;
-
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 8px;
 }
 
+
+
+
+
+
+
+
 .IntroEstudios{
-    font-size: 25px;
+    font-size: 16px;
     text-align: left;
     margin-top: 100px;
 }
 .losSauces{
-    margin-top: 20px;
+    margin-top: 10px;
     float:right;
-    width:10%;
-    font-size: 25px;
-    text-align: justify;
-    margin-right: 90px;
-}
-
-.CEU{
-    margin-top: 20px;
-    float:left;
     width:15%;
     font-size: 25px;
     text-align: justify;
     margin-right: 90px;
 }
 
+.CEU{
+    margin-top: 10px;
+    float:left;
+    width:25%;
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 10px;
+}
+
 .UAX{
     margin-top: 5px;
     float:left;
-    width:10%;
+    width:20%;
     font-size: 25px;
     text-align: justify;
-    margin-right: 90px;
+    margin-right: 15px;
 }
 .Institucion{
     font-size: 24px;
@@ -153,38 +210,37 @@ h2{
 }
 
 .ContenedorFormulario{
+    margin-top: 100px;
     text-align: center;
     color:#525252;
-    display:list-item;
     font-size: 26px;
-    flex-direction: column;
+    overflow: auto;
+
 }
-#title h3{
-    padding: 20x;
-    margin-right: 150px;
+#title{
     font-weight: bold;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
 
 }
 input {
     background-color: transparent;
     border: 1px solid #525252;
-    margin: 20px;
-    padding: 30px;
+    margin: 18px;
+    padding: 18px;
     width: 400px;
 }
 select{
     background-color: transparent;
     border: 1px solid #525252;
     margin: 20px;
-    padding: 30px;
-    width: 470px;
+    padding: 18px;
+    width: 450px;
 }
 textarea {
     background-color: transparent;
     border: 1px solid #525252;
     margin: 10px;
-    padding: 15px;
+    padding: 12px;
     width:420px;
 }
 input:hover,
@@ -192,19 +248,83 @@ textarea:hover {
     box-shadow: inset 0px 0px 0px 3px #525252;
 }
 
-input[type="button"] {
+.BotonFromulario{
     color: #E8E6E8;
     background-color: #525252;
+    border: 4px solid #525252;
+    text-decoration: none;
+    margin-bottom: 20px;
 }
-button:hover{
-    box-shadow: inset 0px 0px 0px 3px #525252;
-}
+
 
 .FotoForm{
     margin-right: 400px;
+    display:block;
+    margin:auto;
+    width: 120%;
+}
+
+
+#footer{
     text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    color:#525252
+}
+
+
+
+@media (max-width: 1000px) {
+    body{
+        font-size: 16px;
+        max-width: fit-content;
+        margin-left: 20px;
+        margin-right: 15px;
+    }
+
+    .menu-principal{
+        text-align: center;
+        background-color: #525252;
+        border: 3px solid #525252;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .menu-principal img {
+        float: left;
+        border-radius: 50%;
+        width:12%;
+    }
+
+    .menu-principal a {
+        width: auto;
+        display: inline;
+        font-size: 13px;
+        text-align: center;
+        margin-left: 5px;
+    }
+
+    .TextoFoto{
+        margin-top: 0%;
+        float:right;
+        width:60%;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+
+
+    h2{
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .Institucion{
+        font-size: 18px;
+    }
+
+    .losSauces{
+        margin-right: 10px;
+
+    }
+
+
 }
