@@ -15,7 +15,7 @@ body{
 
 
 
-/*Estructura de la cabecera como menu */
+/* -----------------Estructura de la cabecera como menu  ---------------*/
 .menu-principal {
     text-align: center;
     background-color: #525252;
@@ -53,15 +53,15 @@ a:hover{
 
 
 
-/*PÁGINA PRINCIPAL */
+/* -----------------PÁGINA PRINCIPAL  --------------------*/
 
 /* Foto fijada en la parte inferior derecha */
 #FotoFixed{
     border-radius: 50%;
-    width:15%;
     position: fixed;
     bottom: 0px;
     right: 0;
+    max-width: 90px;
 }
 
 /*Primera Descripcion general */
@@ -98,7 +98,7 @@ a:hover{
 }
 .ContenedorEnlaces a{
     text-decoration: none;
-    color:black
+    color:black;
 }
 .Enlaces{
     display: inline-block;
@@ -111,7 +111,7 @@ a:hover{
     margin-right: 10px;
 }
 #Conociendome h2{
-    top:30px;
+    top:70px;
     font-size: 20px;
     position:static;
 }
@@ -182,9 +182,7 @@ a:hover{
 
 
 
-/* PÁGINA DE ESTUDIOS */
-
-
+/* -----------------PÁGINA DE ESTUDIOS ----------------- */
 
 .IntroEstudios{
     font-size: 16px;
@@ -198,6 +196,7 @@ a:hover{
     font-size: 25px;
     text-align: justify;
     margin-right: 90px;
+    margin-right: 10px;
 }
 
 .CEU{
@@ -227,15 +226,70 @@ a:hover{
 
 
 
-/*PÁGINA FORMULARIO */
 
-.CuerpoForm{
-    background-color:  #BCBFFF;
+
+/*    ---------------------EXPERIENCIA ---------------  */
+.ContenedorExperiencia{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+h5{
+    margin-top: 70px;
+    font-size: 20px;
+}
+.PrimeraExperiencia{
+    text-align: justify;
+    float: left;
+    width:100%;
 }
 
-.contacta{
-    font-size: 30px;
-    text-align: center;
+#FotoMapfre{
+    float: left;
+    height: auto;
+    max-width: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+
+.SegundaExperiencia{
+    text-align: justify;
+    float: right;
+    width:100%;
+    margin-bottom: 20px;
+}
+#FotoParticulares{
+    float: right;
+    height: auto;
+    max-width: 35%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.TerceraExperiencia{
+    text-align: justify;
+    float: right;
+    width:100%;
+    margin-bottom: 40px;
+}
+#FotoVoluntariado{
+    float: right;
+    height: auto;
+    max-width: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+
+
+
+/* ------------------------PÁGINA FORMULARIO  --------------------*/
+
+h3{
+    margin-top: 40px;
 }
 
 .ContenedorFormulario{
@@ -244,35 +298,53 @@ a:hover{
     color:#525252;
     font-size: 26px;
     overflow: auto;
-    min-width: fit-content;
 
 }
+.CuerpoForm{
+    background-color:  #BCBFFF;
+    max-width: fit-content;
+}
+
+.contacta{
+    font-size: 30px;
+    text-align: center;
+}
+
+
 #title{
     font-weight: bold;
     letter-spacing: 3px;
 
 }
+
+.Formulario{
+    padding: 18px;
+    min-width: fit-content;
+
+}
+
+
 input {
     background-color: transparent;
     border: 1px solid #525252;
     margin: 18px;
-    padding: 18px;
-    width: 400px;
+
 }
 select{
     background-color: transparent;
     border: 1px solid #525252;
-    margin: 20px;
+    margin: 10px;
     padding: 18px;
-    width: 450px;
+    min-width: fit-content;
+
 }
 textarea {
     background-color: transparent;
     border: 1px solid #525252;
     margin: 10px;
-    padding: 12px;
-    width:420px;
 }
+
+
 input:hover,
 textarea:hover {
     box-shadow: inset 0px 0px 0px 3px #525252;
@@ -310,70 +382,16 @@ form a:hover{
 
 
 
-/*    EXPERIENCIA   */
-h5{
-    margin-top: 50px;
-    font-size: 20px;
-}
-.PrimeraExperiencia{
-    text-align: justify;
-    float: left;
-    width:100%;
-}
-
-#FotoMapfre{
-    float: left;
-    height: auto;
-    max-width: 30%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 10px;
-}
-
-
-.SegundaExperiencia{
-    text-align: justify;
-    float: right;
-    width:100%;
-    margin-bottom: 20px;
-}
-#FotoParticulares{
-    float: right;
-    height: auto;
-    max-width: 30%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-}
-
-.TerceraExperiencia{
-    text-align: justify;
-    float: right;
-    width:100%;
-    margin-bottom: 40px;
-}
-#FotoVoluntariado{
-    float: right;
-    height: auto;
-    max-width: 30%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-}
 
 
 
-
-
-/*    GRACIAS   */
+/*    --------------------GRACIAS  -------------------  */
 
 
 h4{
     font-size: 30px;
     font-family: Rockwell;
-
 }
-
 
 #footer{
     text-align: center;
@@ -384,11 +402,10 @@ h4{
 
 
 @media (max-width: 1000px) {
+    /*    --------------------PÁGONA PPAL  -------------------  */
     body{
         font-size: 16px;
         max-width: fit-content;
-        margin-left: 20px;
-        margin-right: 15px;
     }
 
     .menu-principal{
@@ -408,23 +425,113 @@ h4{
         margin-left: 5px;
     }
 
+    .cuerpo{
+        margin-right: 10px;
+    }
 
+    #Hobbies{
+        max-width: fit-content;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    /*    --------------------ESTUDIOS  -------------------  */
 
     .Institucion{
         font-size: 18px;
     }
-
-    .losSauces{
-        margin-right: 10px;
-    }
-
-
 }
 
 @media (min-width: 1000px) {
+
+    /*    --------------------PÁGINA PPAL  -------------------  */
     body{
-        max-width: 900px;
+        max-width: 850px;
         margin: 0 auto !important
     }
+    #Descripcion{
+        margin-top: 50px;
+    }
+    #MiFoto{
+        margin-top: 50px;
+    }
+    #Hobbies{
+        margin-left: 30px;
+        margin-right: 15px;
+    }
 
+    /*    --------------------ESTUDIOS  -------------------  */
+    .IntroEstudios{
+        margin-top: 150px;
+        font-size: 25px;
+        border-color: 5px solid #CDCDCD;
+        background-color: #CDCDCD;
+    }
+    h2{
+        margin-top: 70px;
+    }
+    .Institucion{
+        border-color: 5px solid #CDCDCD;
+        background-color: #CDCDCD;
+    }
+
+    .ContenedorEstudios p{
+        font-size: 18px;
+    }
+    .Idiomas li{
+        font-size: 18px;
+    }
+    .Otros li{
+        font-size: 18px;
+    }
+
+    /*    --------------------EXPERIENCIA  -------------------  */
+
+    .ContenedorExperiencia{
+        margin-top: 90px;
+    }
+    h5{
+        border-color: 5px solid #CDCDCD;
+        background-color: #CDCDCD;
+    }
+
+
+    /*    --------------------FORMULARIO  -------------------  */
+    #title{
+        margin-top: 100px;
+        font-size: 30px;
+    }
+
+
+    .Formulario{
+        padding: 18px;
+        min-width: fit-content;
+    }
+
+    input {
+        background-color: transparent;
+        border: 1px solid #525252;
+        margin: 18px;
+        width:90%;
+
+    }
+    select{
+        background-color: transparent;
+        border: 1px solid #525252;
+        margin: 10px;
+        padding: 18px;
+        width:93%;
+
+    }
+    textarea {
+        background-color: transparent;
+        border: 1px solid #525252;
+        margin: 10px;
+        width:90%;
+    }
+
+    .Gracias{
+        margin-top: 200px;
+        text-align: center;
+    }
 }
