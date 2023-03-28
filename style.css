@@ -12,9 +12,6 @@ body{
 
 
 
-
-
-
 /* -----------------Estructura de la cabecera como menu  ---------------*/
 .menu-principal {
     text-align: center;
@@ -180,8 +177,6 @@ a:hover{
 
 
 
-
-
 /* -----------------PÁGINA DE ESTUDIOS ----------------- */
 
 .IntroEstudios{
@@ -219,10 +214,6 @@ a:hover{
 .Institucion{
     font-size: 24px;
 }
-
-
-
-
 
 
 
@@ -377,20 +368,14 @@ form a:hover{
 
 
 
-
-
-
-
-
-
-
-
 /*    --------------------GRACIAS  -------------------  */
 
 
 h4{
     font-size: 30px;
     font-family: Rockwell;
+    text-align: center;
+    margin-top: 100px;
 }
 
 #footer{
@@ -451,14 +436,27 @@ h4{
     }
     #Descripcion{
         margin-top: 50px;
+        font-size: 18px;
+    }
+    .menu-principal a{
+        font-size: 25px;
     }
     #MiFoto{
         margin-top: 50px;
     }
-    #Hobbies{
-        margin-left: 30px;
-        margin-right: 15px;
+    h2{
+        margin-top: 70px;
     }
+    #Aficiones{
+        text-align: justify;
+        float: right;
+        width:100%;
+        margin-left: 0px;
+        margin-bottom: 30px;
+
+    }
+
+
 
     /*    --------------------ESTUDIOS  -------------------  */
     .IntroEstudios{
@@ -467,9 +465,7 @@ h4{
         border-color: 5px solid #CDCDCD;
         background-color: #CDCDCD;
     }
-    h2{
-        margin-top: 70px;
-    }
+
     .Institucion{
         border-color: 5px solid #CDCDCD;
         background-color: #CDCDCD;
@@ -485,6 +481,8 @@ h4{
         font-size: 18px;
     }
 
+
+
     /*    --------------------EXPERIENCIA  -------------------  */
 
     .ContenedorExperiencia{
@@ -494,6 +492,7 @@ h4{
         border-color: 5px solid #CDCDCD;
         background-color: #CDCDCD;
     }
+
 
 
     /*    --------------------FORMULARIO  -------------------  */
