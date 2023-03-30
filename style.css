@@ -390,7 +390,7 @@ h4{
     /*    --------------------PÁGONA PPAL  -------------------  */
     body{
         font-size: 16px;
-        max-width: fit-content;
+        max-width: 850px;
     }
 
     .menu-principal{
@@ -412,6 +412,10 @@ h4{
 
     .cuerpo{
         margin-right: 10px;
+    }
+
+    #MiFoto{
+        margin-bottom: 70px;
     }
 
     #Hobbies{
@@ -447,13 +451,10 @@ h4{
     h2{
         margin-top: 70px;
     }
-    #Aficiones{
-        text-align: justify;
-        float: right;
-        width:100%;
-        margin-left: 0px;
-        margin-bottom: 30px;
-
+    #Hobbies{
+        max-width: fit-content;
+        margin-left: 15px;
+        margin-right: 10px;
     }
 
 
